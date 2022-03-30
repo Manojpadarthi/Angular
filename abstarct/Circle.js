@@ -38,7 +38,7 @@ var Circle = /** @class */ (function (_super) {
         configurable: true
     });
     Circle.prototype.getInfo = function () {
-        return "x=" + this.x + " , y=" + this.y + " , radius=" + this._radius;
+        return _super.prototype.getInfo.call(this) + ", radius=".concat(this._radius);
     };
     return Circle;
 }(Shape_1.Shape));

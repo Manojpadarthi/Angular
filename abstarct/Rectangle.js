@@ -49,7 +49,7 @@ var Rectangle = /** @class */ (function (_super) {
         configurable: true
     });
     Rectangle.prototype.getInfo = function () {
-        return "x=" + this.x + " , y=" + this.y + " , length=" + this._length + " , width=" + this._width;
+        return _super.prototype.getInfo.call(this) + ", length=".concat(this._length, " , width=").concat(this._width);
     };
     return Rectangle;
 }(Shape_1.Shape));

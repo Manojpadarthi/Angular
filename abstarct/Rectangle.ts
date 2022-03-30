@@ -33,7 +33,7 @@ export class Rectangle extends Shape
 
 
     getInfo() :string{
-        return `x=${this.x} , y=${this.y} , length=${this._length} , width=${this._width}`;
+        return super.getInfo()+`, length=${this._length} , width=${this._width}`;
     }
 
 }

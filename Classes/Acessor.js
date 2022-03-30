@@ -9,8 +9,8 @@ var Acessor = /** @class */ (function () {
         get: function () {
             return this._firstName;
         },
-        set: function (value) {
-            this._firstName = value;
+        set: function (_firstName) {
+            this._firstName = _firstName;
         },
         enumerable: false,
         configurable: true
@@ -19,8 +19,8 @@ var Acessor = /** @class */ (function () {
         get: function () {
             return this._lastName;
         },
-        set: function (value) {
-            this._lastName = value;
+        set: function (_lastName) {
+            this._lastName = _lastName;
         },
         enumerable: false,
         configurable: true

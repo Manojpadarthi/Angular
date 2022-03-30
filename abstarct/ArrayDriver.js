@@ -9,7 +9,7 @@ shapes.push(myCircle);
 shapes.push(myRectangle);
 for (var _i = 0, shapes_1 = shapes; _i < shapes_1.length; _i++) {
     var myshape = shapes_1[_i];
-    console.log("Info is " + myshape.getInfo());
-    console.log("Area is " + myshape.calculateArea());
+    console.log("Info is ".concat(myshape.getInfo()));
+    console.log("Area is ".concat(myshape.calculateArea()));
     console.log();
 }

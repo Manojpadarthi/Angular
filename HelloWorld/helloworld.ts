@@ -8,6 +8,7 @@ let marks : number[] = [5,10,6,7];
 for (let i =0;i<marks.length;i++){
     console.log(`marks obtained by ${i} student is ${marks[i]}`);
 }
+//simplified for loop
 for(let i of marks){
     console.log(i);
 }

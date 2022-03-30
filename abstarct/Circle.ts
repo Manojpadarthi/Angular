@@ -17,6 +17,6 @@ export class Circle extends Shape{
     }
 
     getInfo():string{
-        return `x=${this.x} , y=${this.y} , radius=${this._radius}`;
+        return super.getInfo() + `, radius=${this._radius}`;
     }
 }

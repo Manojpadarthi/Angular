@@ -10,15 +10,15 @@ class Acessor{
     public get firstName(): string {
         return this._firstName;
     }
-    public set firstName(value: string) {
-        this._firstName = value;
+    public set firstName(_firstName: string) {
+        this._firstName = _firstName;
     }
    
-    public get lastName(): string {
+   public get lastName(): string {
         return this._lastName;
     }
-    public set lastName(value: string) {
-        this._lastName = value;
+    public set lastName(_lastName: string) {
+        this._lastName = _lastName;
     }
     
     
