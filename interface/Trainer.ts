@@ -1,0 +1,5 @@
+interface Trainer {
+ 
+    getTraining():any;
+
+}
